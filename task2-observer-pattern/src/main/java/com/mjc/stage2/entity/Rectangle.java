@@ -1,7 +1,6 @@
 package com.mjc.stage2.entity;
 
-
-public class Rectangle  {
+public class Rectangle {
     private int id;
     private double sideA;
     private double sideB;
