@@ -1,6 +1,8 @@
 package com.mjc.stage2.entity;
 
-public class Rectangle {
+import com.mjc.stage2.Observable;
+
+public class Rectangle implements Observable {
     private int id;
     private double sideA;
     private double sideB;
