@@ -10,6 +10,6 @@ public class ManufactureFilteringStrategy implements FilteringStrategy {
 
     @Override
     public boolean filter(Product product) {
-        return product.getPrice() <= maxPrice;
+       return product.getManufacture().equalsIgnoreCase(manufacture);
     }
 }
